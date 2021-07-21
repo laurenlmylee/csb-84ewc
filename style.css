@@ -114,7 +114,7 @@ p {
 
 @media (max-width: 576px) {
   .name {
-    font-size: 48px;
+    font-size: 30px;
   }
   .first-line {
     font-size: 24px;
@@ -123,9 +123,28 @@ p {
     font-size: 18px;
   }
 
+  .heading {
+    font-size: 32px;
+  }
+
+  .about-heading {
+    font-size: 30px;
+  }
+
+  .para {
+    font-size: 12px;
+  }
+
   .primary-link {
     display: block;
     text-align: center;
-    margin: 0 20px;
+    margin: 0 auto;
+  }
+
+  .contact-heading {
+    font-size: 30px;
+  }
+  .email-link {
+    font-size: 21px;
   }
 }
